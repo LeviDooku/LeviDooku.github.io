@@ -1,0 +1,78 @@
+/*Estilo para el apartado de musica*/
+
+/*Estilo css*/
+
+html{
+    font-family: 'Slabo 27px', serif;
+}
+
+/*Estilo del body*/
+
+body{
+    margin: 0;
+    color: black;
+    height: 100%;
+    background-image: url(pics/musica.jpg);
+    background-size: cover;
+}
+
+/*Header*/
+
+header{
+    text-align: center;
+    padding: 10px;
+    background-image: white;
+    font-size: xx-large;
+    color: white;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black;
+}
+
+/*Introduccion (titulo)*/
+
+.intro{ 
+    margin: auto;
+    margin-left: 20px;
+    color: white;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black;
+    font-size: xx-large;
+}
+
+/*Introduccion (párrafo)*/
+
+.explic{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(127, 53, 238, 0.5);
+    font-size: xx-large;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+
+/*Footer*/
+
+.footer{
+    background-color: rgba(127, 53, 238, 0.5);
+    padding: 20px;
+}
+
+#ref{
+    color: white;
+    font-size: x-large;
+    margin: 24px;
+}
+
+#ref:hover{
+    cursor: pointer;
+}
+
+#p_div{
+    font-size: x-large;
+}
+
+.c_footer{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}

@@ -1,0 +1,114 @@
+/*TERMINADO POR AHORA*/
+
+/*Estilo para el apartado fotos*/
+
+/*Estilo css*/
+
+html{
+    font-family: 'Slabo 27px', serif;
+}
+
+/*Estilo del body*/
+
+body{
+    margin: 0;
+    color: black;
+    height: 100%;
+    background-image: url(pics/aceituna.jpg);
+    background-size: block;
+}
+
+/*Header*/
+
+header{
+    text-align: center;
+    padding: 5px;
+    background-image: white;
+    font-size: xx-large;
+    color: rgb(216, 216, 86);
+    text-shadow: 1px 1px 0 orange, -1px -1px 0 orange;
+}
+
+/*Introduccion (titulo)*/
+
+.intro{ 
+    margin: auto;
+    margin-left: 20px;
+    color: rgb(216, 216, 86);
+    text-shadow: 1px 1px 0 orange, -1px -1px 0 orange;
+    font-size: xx-large;
+}
+
+/*Introduccion (párrafo)*/
+
+.explic{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(255, 98, 0, 0.5);
+    font-size: xx-large;
+    color: rgb(216, 216, 86);
+    border-radius: 0.5rem;
+}
+
+/*Secciones y artículos*/
+
+.section{ 
+    clear: both;
+    color: rgb(216, 216, 86);
+    font-size: medium;
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article{
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
+    background-color: rgb(255, 98, 0);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+/*Tamaño de los memes*/
+
+.memes{
+    width: 400px;
+}
+
+/*Footer*/
+
+.footer{
+    background-color: rgba(255, 98, 0, 0.5);
+    padding: 20px;
+}
+
+#ref{
+    color: rgb(216, 216, 86);
+    font-size: x-large;
+    margin: 24px;
+}
+
+#ref:hover{
+    cursor: pointer;
+}
+
+#p_div{
+    font-size: x-large;
+}
+
+.c_footer{
+    display: flex;
+    color: rgb(216, 216, 86);
+    justify-content: space-around;
+}

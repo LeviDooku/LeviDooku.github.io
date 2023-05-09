@@ -1,0 +1,126 @@
+/*Estilo para el apartado de videos*/
+
+/*Estilo css*/
+
+html{
+    font-family: 'Slabo 27px', serif;
+}
+
+/*Estilo del body*/
+
+body{
+    margin: 0;
+    color: black;
+    height: 100%;
+    background-image: url(pics/xplosivo.gif);
+}
+
+/*Header*/
+
+header{
+    text-align: center;
+    padding: 10px;
+    background-image: white;
+    font-size: xx-large;
+    color: blue;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black;
+}
+
+/*Introduccion (titulo)*/
+
+.intro{ 
+    margin: auto;
+    margin-left: 20px;
+    color: blue;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black;
+    font-size: xx-large;
+}
+
+/*Introduccion (párrafo)*/
+
+.explic{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(53, 173, 238, 0.5);
+    font-size: xx-large;
+    color: blue;
+    border-radius: 0.5rem;
+}
+
+/*Tabla de vídeos*/
+
+/*La tabla propiamente dicha*/
+
+.videos{
+    width: 320px;
+    height: 400px;
+}
+
+td{
+    padding: 5px 10px;
+}
+
+.section{ 
+    clear: both;
+    color: white;
+    text-shadow: 1px 1px 0 black, -1px -1px 0 black;
+    font-size: medium;
+    width: 400px;
+}
+
+section article.momentos{
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
+    background-color: blue;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.25rem;
+    cursor: pointer;
+}
+
+section article.graciosos{
+    transition: box-shadow 0.3s ease;
+    transition: transform 0.3s ease;
+    background-color: rgb(27, 160, 213);
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.25rem;
+    cursor: pointer;
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+/*Footer*/
+
+.footer{
+    background-color: rgba(53, 173, 238, 0.5);
+    padding: 20px;
+}
+
+#ref{
+    color: blue;
+    font-size: x-large;
+    margin: 24px;
+}
+
+#ref:hover{
+    cursor: pointer;
+}
+
+#p_div{
+    font-size: x-large;
+}
+
+.c_footer{
+    display: flex;
+    color: blue;
+    justify-content: space-around;
+}
