@@ -55,16 +55,18 @@ header{
 .videos{
     width: 320px;
     height: 400px;
+    margin: 0 auto;
 }
 
 td{
     padding: 5px 10px;
 }
 
+/*Seccion y artículos*/
+
 .section{ 
     clear: both;
     color: white;
-    text-shadow: 1px 1px 0 black, -1px -1px 0 black;
     font-size: medium;
     width: 400px;
 }
