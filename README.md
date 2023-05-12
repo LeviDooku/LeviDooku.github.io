@@ -6,4 +6,15 @@ La idea de esta creación viene de querer hacer un proyecto q poder compartir co
 
 La página en sí consiste en varios archivos html y css, el index es donde se encuentra la introducción de la página y el menú para acceder a las demás secciones, las cuales son fotos, vídeos y música.  
 
-Aparte de echarme unas risas, en este proyecto he aprendido a hacer una interfaz "amigable" (estilo instagram diría yo) para fotos y vídeos.
+Aparte de echarme unas risas, en este proyecto he aprendido a hacer una interfaz "amigable" (estilo instagram diría yo) para fotos y vídeos, aparte de usar varios archivos html para acceder a ellos mediante un menú.  
+
+TO DO:
+
+- Terminar la parte de vídeos, falta por añadir tres vídeos y ajustar el tamaño de los "post", ya que no sé por qué no están ajustandose correctamente.
+- Empezar la parte de música, aunque por ahora le estoy dando prioridad a los vídeos.
+- Al terminar lo que es la página, me gustaría añadirle más css e incluso atreverme con js porque no tengo ni idea, y lo veo útil.
+- Añadir una foto que se vea en la pestaña del navegador
+
+SOBRE NAVEGADORES Y DISPOSITIVOS:  
+
+Uso Chrome en un portátil de 13 pulgadas y se ve ajustado y correctamente. En dispositivos móviles ni mencionar que la experiencia no será la misma, pero bueno, era de esperar
