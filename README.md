@@ -1,6 +1,6 @@
 # LeviDooku.github.io
 
-Esta es un proyecto q sirve como galería de memes, vídeos y música que recuerden a algún momento gracioso o simplemente feliz entre amigos.  
+Este es un proyecto q sirve como galería de memes, vídeos y música que recuerden a algún momento gracioso o simplemente feliz entre amigos.  
 
 La idea de esta creación viene de querer hacer un proyecto q poder compartir con mariauwuu (xddd) y mis amigos.  
 
