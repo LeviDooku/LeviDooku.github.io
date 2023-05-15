@@ -10,7 +10,7 @@ Aparte de echarme unas risas, en este proyecto he aprendido a hacer una interfaz
 
 TO DO:
 
-- Terminar la parte de vídeos, falta por añadir tres vídeos y ajustar el tamaño de los "post", ya que no sé por qué no están ajustandose correctamente.
+- Terminar la parte de vídeos, falta por añadir un vídeo vídeos y ajustar el tamaño de los "post", ya que no sé por qué no están ajustandose correctamente.
 - Empezar la parte de música, aunque por ahora le estoy dando prioridad a los vídeos.
 - Al terminar lo que es la página, me gustaría añadirle más css e incluso atreverme con js porque no tengo ni idea, y lo veo útil.
 - Añadir una foto que se vea en la pestaña del navegador
