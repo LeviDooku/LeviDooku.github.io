@@ -6,6 +6,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Slabo+13px&family=Slabo+27px&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('video').on('play', function() {
+                $('video').not(this).each(function() {
+                    $(this).get(0).pause();
+                });
+            });
+        });
+    </script>
 </head>
 <body>
 
@@ -38,7 +48,7 @@
                         <p id="p1_a1">La tarde antes del primer parcial de TOC, estuvimos estudiando álgebra de Boole con 
                             reguetón de fondo todol día xdddd epicardo
                         </p>
-                            <video src="vid/boole.mp4" id="v1" class="videos" controls></video>
+                            <video src="vid/boole.mp4" id="v1" class="videos" controls type="video/mp4"></video>
                         <p id="p2_a1"></p>
                     </article>
                 </td>
@@ -47,7 +57,7 @@
                     <article id="a_2" class="graciosos">
                         <h2 id="h2_a2">La mejor felicitación de cumple</h2>
                         <p id="p1_a2">Gracias maría por hacer q mi ídolo me felicitase el cumple de esta forma</p>
-                            <video src="vid/cumple.mp4" id="v2" class="videos" controls></video>
+                            <video src="vid/cumple.mp4" id="v2" class="videos" controls type="video/mp4"></video>
                         <p id="p2_a2"></p>
                     </article>
                 </td>
@@ -58,7 +68,7 @@
                         <h2 id="h2_a3">Neoracismo</h2>
                         <p id="p1_a3">Mercurio retrógado<br><br>
                         </p>
-                            <video src="vid/bug.mp4" id="v3" class="videos" controls></video>
+                            <video src="vid/bug.mp4" id="v3" class="videos" controls type="video/mp4"></video>
                         <p id="p2_a3"></p>
                     </article>
                     </div>
@@ -69,7 +79,7 @@
                         <h2 id="h2_a4">Post - viernes</h2>
                         <p id="p1_a4">La verdad pocos días me lo pasé tan bien sin ganas de salir<br>
                         En el vídeo todos tenemos carencias jasjdas</p>
-                            <video src="vid/viernes.mp4" id="v4" class="videos" controls></video>
+                            <video src="vid/viernes.mp4" id="v4" class="videos" controls type="video/mp4"></video>
                         <p id="p2_a4"></p>
                     </article>
                 </td>
@@ -83,7 +93,7 @@
                     <article id="a_5" class="momentos">
                         <h2 id="h2_a5">David gitano</h2>
                         <p id="p1_a5">El día q fuimos a cenar y descubrimos q David y Alicia eran amigos q random</p>
-                            <video src="vid/saul.mp4" id="v5" class="videos" controls></video>
+                            <video src="vid/saul.mp4" id="v5" class="videos" controls type="video/mp4"></video>
                         <p id="p2_a5"></p>
                 </td>
 
@@ -91,7 +101,7 @@
                     <article id="a_6" class="graciosos">
                         <h2 id="h2_a6">El francotirador</h2>
                         <p id="p1_a6">Álvaro y yo fuimos unos privilegiados al contemplar tal obra de la naturaleza</p>
-                            <video src="vid/yselapela.mp4" id="v6" class="videos" controls></video>
+                            <video src="vid/yselapela.mp4" id="v6" class="videos" controls type="video/mp4"></video>
                         <p id="p2_a6"></p>
                 </td>
 
@@ -101,7 +111,7 @@
                         <p id="p1_a7">Imágenes difíciles de inmortalizar, sientanse privilegiados
                             por contemplear tal hazaña.
                         </p>
-                            <video src="vid/deporte.mp4" id="v7" class="videos" controls></video>
+                            <video src="vid/deporte.mp4" id="v7" class="videos" controls type="video/mp4"></video>
                         <p id="p2_a7"></p>
                 </td>
 
@@ -110,7 +120,7 @@
                         <h2 id="h2_a8">Omegle tarde</h2>
                         <p id="p1_a8">Simplemente tres tíos enseñándole cultura española a unos indios.
                         </p>
-                            <video src="vid/india.mp4" id="v8" class="videos" controls></video>
+                            <video src="vid/india.mp4" id="v8" class="videos" controls type="video/mp4"></video>
                         <p id="p2_a8"></p>
                 </td>
 
@@ -123,7 +133,7 @@
                     <article id="a_9" class="graciosos">
                         <h2 id="h2_a9">La fórmula</h2>
                         <p id="p1_a9">buf quien sabe sabe yo no voy a explicar nada más</p>
-                            <video src="vid/laformula.mp4" id="v9" class="videos" controls></video>
+                            <video src="vid/laformula.mp4" id="v9" class="videos" controls type="video/mp4"></video>
                         <p id="p2_a9"></p>
                 </td>
 
@@ -131,7 +141,7 @@
                     <article id="a_10" class="momentos">
                         <h2 id="h2_a10">putos testigos de jehová</h2>
                         <p id="p1_a10">hola me podeis dedicar 20 segundillos¿¿¿¿</p>
-                            <video src="vid/20segundillos.mp4" id="v10" class="videos" controls></video>
+                            <video src="vid/20segundillos.mp4" id="v10" class="videos" controls type="video/mp4"></video>
                         <p id="p2_a10"></p>
                 </td>
 
@@ -139,7 +149,7 @@
                     <article id="a_11" class="momentos">
                         <h2 id="h2_a11">whopwhowowowowowo.2014</h2>
                         <p id="p1_a11">bombardeen la ugr</p>
-                            <video src="vid/jtriunfo.mp4" id="v11" class="videos" controls></video>
+                            <video src="vid/jtriunfo.mp4" id="v11" class="videos" controls type="video/mp4"></video>
                         <p id="p2_a11"></p>
                 </td>
 
@@ -147,7 +157,7 @@
                     <article id="a_12" class="momentos">
                         <h2 id="h2_a12">found footage</h2>
                         <p id="p1_a12">cuevedo??</p>
-                            <video src="vid/cuevedo.mp4" id="v12" class="videos" controls></video>
+                            <video src="vid/cuevedo.mp4" id="v12" class="videos" controls type="video/mp4"></video>
                         <p id="p2_a12"></p>
                 </td>
 
